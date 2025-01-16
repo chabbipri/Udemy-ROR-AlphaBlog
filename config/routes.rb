@@ -5,4 +5,7 @@ Rails.application.routes.draw do
 
   #Pages
   get "about", to: "pages#about"
+
+  #Articles
+  resources :articles, only: [:show]
 end
