@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: <%= ENV['DATABASE_USER'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: alpha_blog_development
+
+test:
+  <<: *default
+  database: alpha_blog_test
+
+production:
+  <<: *default
+  database: alpha_blog_production
+  username: <%= ENV['DATABASE_USER'] %>
+  password: <%= ENV["ALPHA_BLOG_DATABASE_PASSWORD"] %>
