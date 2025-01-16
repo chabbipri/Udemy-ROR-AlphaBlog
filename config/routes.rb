@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   root "pages#home"
 
-  #Pages
+  # Pages
   get "about", to: "pages#about"
 
   #Articles
