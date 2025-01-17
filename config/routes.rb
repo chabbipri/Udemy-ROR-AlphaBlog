@@ -6,6 +6,6 @@ Rails.application.routes.draw do
   # Pages
   get "about", to: "pages#about"
 
-  #Articles
-  resources :articles, only: [:show, :index, :create, :new]
+  # Articles
+  resources :articles, only: %i[show index create new]
 end
