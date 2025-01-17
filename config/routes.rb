@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   get "about", to: "pages#about"
 
   #Articles
-  resources :articles, only: [:show, :index]
+  resources :articles, only: [:show, :index, :create, :new]
 end
