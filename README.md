@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Chapter 4:
+1. Show
+2. New / Create : Create the funcationality with the UI/
+3. Create / Update
+4. Delete(Destory)
 
-Things you may want to cover:
+REST - Represnational State Transger - mapping HTTP verbs( GET, POST, PUT/PATCH, DELETE) to CRUD actions.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Recources in the routes provides REST-ful routes to Rails resources.
