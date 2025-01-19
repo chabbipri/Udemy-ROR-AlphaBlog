@@ -3,6 +3,7 @@ source "https://rubygems.org"
 ruby "3.2.2"
 
 gem "bootsnap", require: false
+gem "bootstrap", "~> 5.2", ">= 5.2.3"
 gem "byebug"
 gem "dotenv-rails", groups: %i[development test]
 gem "importmap-rails"
@@ -11,6 +12,7 @@ gem "pg", "~> 1.1"
 gem "pry"
 gem "puma", ">= 5.0"
 gem "rails", "~> 7.1.5", ">= 7.1.5.1"
+gem "sassc-rails"
 gem "sprockets-rails"
 gem "stimulus-rails"
 gem "turbo-rails"
